@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "RobotoMono";
+    src: url("font/RobotoMono-Bold.ttf");
+}
+body {
+    background-color: aquamarine;
+}
+.paragraphs {
+    text-align: center;
+    font-family: RobotoMono;
+}
+.background {
+    background-color: #2ecc71;
+}
+h1 {
+    text-align: center;
+    font-family: RobotoMono;
+}
+img {
+    border-style: dotted;
+    border-widow: 4px;
+    border-color: white;
+    height: 200px;
+    width: 200px;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start:2;
+    grid-row-end:3;
+    justify-items: center;
+    align-items: center;
+    display: block;
+
+}
+
+.container {
+    border-style: dotted;
+    border-widow: 4px;
+    border-color: white;
+    display: grid;
+    grid-template-rows: 20px 1fr 1fr 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: scroll;
+
+}
+#imageholder{
+    justify-items: center;
+}
+
+header {
+    background:tomato;
+    grid-column-start:1;
+    grid-column-end:13;
+    grid-row-start:1;
+    grid-row-end:1;
+    text-align: center;
+    font-family: RobotoMono;
+}
+
+footer {
+    background:lightblue;
+    grid-column-start:1;
+    grid-column-end:13;
+    grid-row-start:4;
+    grid-row-end:4;
+    text-align: center;
+    font-family: RobotoMono;
+}
+
+#gridholder {
+    align-self: center;
+}

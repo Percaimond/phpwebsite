@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cea003f5-c723-4d4a-88b8-36781ce38195" name="http://localhost" url="http://localhost:63342/anoatarashisaito/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="ff479e38-bdd2-442b-a579-0da96406856c" name="XAMPP PHP" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\anoatarashisaito\WebLogin" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
