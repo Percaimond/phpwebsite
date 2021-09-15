@@ -13,7 +13,7 @@
     <input id="password" type="password" placeholder="Password">
     <input id="password" type="text" placeholder="E-Mail">
     <input id="myButton2" type="submit" value="Register" onClick=window.location.href="Index.html">
-    <!--window.location.href='Startsite.html'--
+    <!--window.location.href='Startsite.html'-->
 </form>
 </body>
 </html>
